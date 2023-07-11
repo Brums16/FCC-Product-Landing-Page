@@ -16,14 +16,15 @@
   <img src="https://shirtigo.co/wp-content/uploads/2013/09/kittenmittons.jpg" id="header-img">
   <nav id="nav-bar">
     <ul>
-      <li><a href="#first" class="nav-link">First</a></li>
-      <li><a href="#second" class="nav-link">Second</a></li>
-      <li><a href="#third" class="nav-link">Third</a></li>
-      <li><a href="fourth" class="nav-link">Fourth</a></li>
+      <li><a href="#headline-section" class="nav-link">Product</a></li>
+      <li><a href="#usp" class="nav-link">FAQs</a></li>
+      <li><a href="#testimonials-heading" class="nav-link">Testimonials</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       </nav>
 </header>
-<section class="headline-section">
+<main>
+<section class="headline-section" id="headline-section">
 
 <p class="main-headline">Finally, there's an elegant, comfortable mitten for cats<span class="fullstop">.</span>
 
@@ -31,7 +32,9 @@
 <br />
 <span class="second-headline"> So come on down to Paddy's Pub.
 
-We're the home of the original Kitten Mittons<span class="fullstop">.</span></span>
+We're the home of the original Kitten Mittons
+<br /><br /><br /><br />
+<button type="button" onclick="alert('Excellent choice!')">Shop now</button>
 </p>
 <img src="https://media.istockphoto.com/id/157690280/photo/cat-sphinx-warm-with-red-scarf-and-socks.jpg?s=612x612&w=0&k=20&c=Oze0anb7pKb2zYA36utFjm7B5p_PdNZwyQpOIMYQ25w=" class="headline-image">
 
@@ -61,7 +64,7 @@ We're the home of the original Kitten Mittons<span class="fullstop">.</span></sp
 
 <hr>
 
-<section class="usp">
+<section class="usp" id="usp">
 
 <p class="usp-para">Is your cat making too much noise all the time?
 <br />
@@ -78,18 +81,18 @@ Think there's no answer?
 
 You're so stupid! There is.
 </p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/22O6Nmjt-mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe id="video" width="728" height="410" src="https://www.youtube.com/embed/22O6Nmjt-mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
 </section>
 <hr>
-<section class="testimonials-heading">
+<section class="testimonials-heading" id="testimonials-heading">
   Testimonials
   </section>
 <section class="testimonials">
 
-  <blockquote><span class="quote">Ever since we got Kitten Mittens, our cat, Whiskers, has been a whole new level of snuggly and cozy! Plus, no more scratched furniture. We couldn't be happier! - </span>Sarah H.</blockquote> 
+  <blockquote><span class="quote">Ever since we got Kitten Mittons, our cat, Whiskers, has been a whole new level of snuggly and cozy! Plus, no more scratched furniture. We couldn't be happier! - </span>Sarah H.</blockquote> 
   
   <blockquote>
     <span class="quote">I can't get over how adorable my kitty looks in these mittens! It's like she's wearing tiny, fashionable sweaters on her paws. Definitely a must-have for every stylish cat owner!</span> - Mark D.
@@ -97,19 +100,48 @@ You're so stupid! There is.
     <blockquote><span class="quote">K - Keep buying <br />I - Invite your friends <br />T - Try other products <br />T - Talk about them too <br />Y - You'll love them</span> - Brian L.
       </blockquote>
       <blockquote>
-        <span class="quote">I got a question for yalz... when yous is up in da cluub, why you look so stoopid?! Get kitten mittens and look good!</span> - Aluminum M.
+        <span class="quote">I got a question for yalz... when yous is up in da cluub, why you look so stoopid?! Get Kitten Mittons and look good!</span> - Aluminum M.
         </blockquote>
 
   </section>
-
-  
-<footer>
-Contact us, use same layout as header
-
-
-with socials, contact etc
-
-</footer>
-
+  <hr>
+<section class="contact" id="contact">
+<div class="contact">
+544 Mateo Street
+<br />
+Los Angeles
+<br />
+California
+<br />
+USA
+</div>
+<div class="your-email">
+<form action="https://www.freecodecamp.com/email-submit" id="form">
+  <br />
+  <label for="email">Recieve our newsletter:
+    <br />
+  </label>
+<input type="email" id="email" name="email" placeholder="mantistob@email.com"><input type="submit" id="submit">
+</form>
+  </div>
+<div class="social-icons">
+  Socials:
+  <a href="https://www.facebook.com/freecodecamp/">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://twitter.com/freecodecamp/">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/freecodecamp">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/school/free-code-camp/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.youtube.com/freecodecamp">
+            <i class="fab fa-youtube"></i>
+  </div>
+</section>
+</main>
   </body>
 </html>
